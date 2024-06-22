@@ -1,0 +1,77 @@
+.topbar{
+    background-color: #2365cf;
+    color: white;
+}
+.topBarWrapper{
+    display: flex;
+}
+.leftSide{
+    flex: 3;
+    
+}
+.center{
+    flex: 5;
+   
+}
+.rightSide{
+    flex: 4;
+    
+}
+.logo{
+    font-size: 30px;
+    padding: 20px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.center .btn{
+    margin-left: -40px;
+}
+input{
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.profile .icon{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.rightSide .profile p{
+    position: absolute;
+   top: 10px;
+   right: 110px;
+   background-color: red;
+   border-radius: 50%;
+   padding:0 2px;
+   font-weight: 600;
+}
+
+.rightLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   margin-top: 5px;
+}
+.rightLink p{
+    cursor: pointer;
+}
+.rightSide{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
